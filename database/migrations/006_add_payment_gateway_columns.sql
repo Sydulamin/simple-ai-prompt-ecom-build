@@ -1,0 +1,4 @@
+
+ALTER TABLE "Orders" ADD COLUMN IF NOT EXISTS gateway_session_id TEXT;
+ALTER TABLE "Orders" ADD COLUMN IF NOT EXISTS gateway_trx_id TEXT;
+ALTER TABLE "Orders" ADD COLUMN IF NOT EXISTS gateway_response JSONB;

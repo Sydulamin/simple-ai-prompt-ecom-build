@@ -1,7 +1,2 @@
+# Only ignore node_modules
 node_modules/
-.env
-uploads/products/*.webp
-uploads/products/*.jpg
-uploads/products/*.png
-dist/
-*.log
